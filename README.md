@@ -1,6 +1,6 @@
 ## AEKOC+ or AAKELM+ or AALSSVM+
 
-Gautam, C., Tiwari, A., & Tanveer, M. (2020). AEKOC+: Kernel Ridge Regression-Based Auto-Encoder for One-Class Classification Using Privileged Information. Cognitive Computation, 1-14.
+Gautam, C., Tiwari, A., & Tanveer, M. (2020). AEKOC+: Kernel Ridge Regression-Based Auto-Encoder for One-Class Classification Using Privileged Information. Cognitive Computation, 1-14. [Paper](https://link.springer.com/article/10.1007/s12559-019-09705-4)
 
 **AEKOC+ can also be treated as the variant of Kernel Extreme learning Machine or Least Squares SVM with zero bias, therefore, paper and method can also be named as follows:**
 
@@ -51,4 +51,4 @@ Uncomment this line in cell 4:
 **Paper6 (OCSVM+):** Burnaev, Evgeny, and Dmitry Smolyakov. "One-class SVM with privileged information and its application to malware detection.", 2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW). IEEE, 2016.
 
 
-**For any query, you can reach me at chandangautam31@gmail.com , phd1501101001@iiti.ac.in**
+**For any query, you can reach me at chandangautam31@gmail.com , chandang@iisc.ac.in**
