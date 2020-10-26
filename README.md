@@ -1,4 +1,4 @@
-# AEKOC+ or AAKELM+ or AALSSVM+
+## AEKOC+ or AAKELM+ or AALSSVM+
 
 Gautam, C., Tiwari, A., & Tanveer, M. (2020). AEKOC+: Kernel Ridge Regression-Based Auto-Encoder for One-Class Classification Using Privileged Information. Cognitive Computation, 1-14.
 
