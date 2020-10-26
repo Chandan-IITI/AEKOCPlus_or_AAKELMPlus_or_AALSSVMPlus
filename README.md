@@ -2,6 +2,39 @@
 
 Gautam, C., Tiwari, A., & Tanveer, M. (2020). AEKOC+: Kernel Ridge Regression-Based Auto-Encoder for One-Class Classification Using Privileged Information. Cognitive Computation, 1-14.
 
+**AEKOC+ can also be treated as the variant of Kernel Extreme learning Machine or Least Squares SVM with zero bias, therefore, paper and method can also be named as follows:**
+
+AAKELM+: Autoassociative Kernel Extreme Learning Machine based One-class Classification using Privileged Information 
+
+or 
+
+AALSSVM+: Autoassociative Least Square SVM with zero bias based One-class Classification using Privileged Information
+
+
+## For reproducing the results of Heart datasets:
+
+--  Open All_Heart_Experiments.ipynb in Python notebook and run all cells. It will save all results in .pkl files. Results on optimal   parameters along with optimal parameters values will be saved in a excel file.   
+
+--  Be dfault these codes produce results for group attribute 'Age'. For other two group attributes (Sex and Electrocardiographic): change the value in cell number 3 and 4 as follows:
+
+**For group attribute = Sex:**
+
+Uncomment this line in cell 3:  
+ privileged_space = privileged_space_tot.ix[:]['p1']
+
+Uncomment this line in cell 4:
+ feature_space = feature_space.drop('a2', axis=1)
+ privfeat = 'Sex'
+
+**For group attribute = Electrocardiographic:**
+
+Uncomment this line in cell 3:  
+ privileged_space = privileged_space_tot.ix[:]['p3']
+
+Uncomment this line in cell 4:
+ feature_space = feature_space.drop('a7', axis=1)
+ privfeat = 'Elect'
+
 
 ### Following papers can be experimented by calling 'LUPI_oneclass_methods.py' file from the repository: 
     
@@ -16,3 +49,6 @@ Gautam, C., Tiwari, A., & Tanveer, M. (2020). AEKOC+: Kernel Ridge Regression-Ba
 **Paper5 (SVDD+):** Zhang, Wenbo. "Support vector data description using privileged information.", Electronics Letters 51.14 (2015): 1075-1076.
         
 **Paper6 (OCSVM+):** Burnaev, Evgeny, and Dmitry Smolyakov. "One-class SVM with privileged information and its application to malware detection.", 2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW). IEEE, 2016.
+
+
+**For any query, you can reach me at chandangautam31@gmail.com , phd1501101001@iiti.ac.in**
