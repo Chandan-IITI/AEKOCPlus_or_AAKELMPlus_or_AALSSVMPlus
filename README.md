@@ -15,6 +15,4 @@ Gautam, C., Tiwari, A., & Tanveer, M. (2020). AEKOC+: Kernel Ridge Regression-Ba
 
 **Paper5 (SVDD+):** Zhang, Wenbo. "Support vector data description using privileged information.", Electronics Letters 51.14 (2015): 1075-1076.
         
-**Paper6 (OCSVM+):** Zhu, Wenxin, and Ping Zhong. "A new one-class SVM based on hidden information.", Knowledge-Based Systems 60 (2014): 35-43. 
-### AND
- Burnaev, Evgeny, and Dmitry Smolyakov. "One-class SVM with privileged information and its application to malware detection.", 2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW). IEEE, 2016.
+**Paper6 (OCSVM+):** Burnaev, Evgeny, and Dmitry Smolyakov. "One-class SVM with privileged information and its application to malware detection.", 2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW). IEEE, 2016.
